@@ -13,11 +13,11 @@ Data can be downloaded from the following link.
 
 This dataset contains 100 labeled images of White Blood Cells (WBC) and Red Blood Cells (RBC) combined. A separate file named `annotations.csv` is provided that contains labeling for each object in the given image.
 
-![fig 1 Sample Image file (Unlabeled)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6df9e24d-2f98-4f6f-a9c6-7e44b144191d/66fe360f-776f-425a-aad7-2d71672bb231.png)
+![image](https://user-images.githubusercontent.com/47318130/219865693-fa0fe647-a642-49a5-b806-d117eee1b152.png)
 
 fig 1 Sample Image file (Unlabeled)
 
-![fig 2 Sample Labeled image](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e3988ef2-1b4a-42c9-8291-d7d483bf2cbc/62eedc08-f3ee-4ee1-bdbb-cd3147f97611.png)
+![image](https://user-images.githubusercontent.com/47318130/219865705-20b2a6cf-5db8-482c-9c95-832e849ae527.png)
 
 fig 2 Sample Labeled image
 
@@ -35,7 +35,7 @@ Transfer learning was used to retrain or fine-tune the model to the new dataset.
 
 There are various versions of YOLO available based on the number of parameters as seen below. For this demonstration, **YOLOv8m** was used which is a medium size model with 25.9 million parameters.
 
-![fig 3 YOLO Models](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/259fd9c8-7e5d-4dfc-8fd1-230e284e1cb1/Untitled.png)
+![image](https://user-images.githubusercontent.com/47318130/219865713-5ce1b11b-953b-4185-bf2d-b12d5f4a91c4.png)
 
 fig 3 YOLO Models
 
@@ -43,17 +43,17 @@ YOLO takes care of image transformations and augmentations internally, resulting
 
 Here are some results from the YOLO model
 
-![fig 4](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e72b4e1-7427-473e-955e-f012d2caba6b/val_batch0_pred.jpg)
+![image](https://user-images.githubusercontent.com/47318130/219865728-9744cb28-d1f6-48d7-a957-ca947b3f2645.png)
 
 fig 4
 
-![fig 5](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/780a2262-bd36-465b-857e-bfb25692b653/val_batch1_pred.jpg)
+![image](https://user-images.githubusercontent.com/47318130/219865733-97f98559-d915-4d44-9f01-a57ccd11efef.png)
 
 fig 5
 
 As seen, the model is accurately able to identify the labels in the images.
 
-![fig 6 Trains and val metrics YOLO](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5877158-b9e8-46ee-8384-d027a6a81d6b/results.png)
+![image](https://user-images.githubusercontent.com/47318130/219865745-b3e6df9d-a39d-4123-9070-c27f29835424.png)
 
 fig 6 Trains and val metrics YOLO
 
